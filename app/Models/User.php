@@ -23,6 +23,10 @@ class User extends Authenticatable
         'password',
     ];
 
+    #TODO
+    //TODO :: remove when the timestamp has a value in the table and has default one current time stamp time in the structure of the sql table 
+    public $timestamps = false;
+
     /**
      * The attributes that should be hidden for serialization.
      *
